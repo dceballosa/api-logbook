@@ -25,7 +25,7 @@ dependencies {
 sonarqube {
 	properties {
 		property "sonar.host.url", "https://sonarcloud.io"
-		property "sonar.projectName", "ApiLogbook"
+		property "sonar.projectName", "ApiLogbook2"
 		property 'sonar.login','82dca17921a4a4c17a146dd2299d3965dcda8e9e'
 		property "sonar.organization", "dceballosa_curso"
 		property "sonar.java.source", "8"
