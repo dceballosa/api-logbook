@@ -28,8 +28,8 @@ public class NoteController {
     }
 
     // creates a new note
-    @RequestMapping(value="/saveNote", method = RequestMethod.POST)
-    public void saveNote(Note note) {
+    @RequestMapping(value="/notes", method = RequestMethod.POST)
+    public void saveNote(@RequestBody Note note) {
         noteService.saveNote(note);
     }
 
